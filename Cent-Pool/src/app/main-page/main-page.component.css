@@ -1,0 +1,45 @@
+body{
+    background-image: url("../../assets/images/centpool-cover.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position-x: top;
+}
+.blue{
+    background-color:#007aff;
+    padding:2px;
+}
+
+.red{
+    background-color:#ff1100;
+}
+/* .container{
+    
+    margin:2%;
+} */
+
+.navbar{
+    justify-content: space-between;
+}
+
+img{
+    width: 120px;
+    }
+mat-spinner{
+    color: #007aff;
+}
+mat-icon{
+    margin:50px;
+}
+.matpinner{
+color: #007aff;
+}
+
+.mat-raised-button {
+    color: #007aff;
+    background-color: #fff;
+}
+
+.mat-toolbar.mat-primary {
+    background:#007aff;   
+    color: #fff;
+}

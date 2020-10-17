@@ -1,0 +1,21 @@
+.blue{
+    background-color:#007aff;
+    padding:2px;
+}
+
+.red{
+    background-color:#ff1100;
+}
+.container{
+    
+    margin:25%;
+}
+mat-spinner{
+    color: #007aff;
+}
+mat-icon{
+    margin:50px;
+}
+.matpinner{
+color: #007aff;
+}
