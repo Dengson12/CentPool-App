@@ -2,7 +2,6 @@ body{
     background-image: url("../../assets/images/centpool-cover.png");
     background-size: 70%;
     background-repeat: no-repeat;
-    background-position-x: top;
 }
 .blue{
     background-color:#007aff;
