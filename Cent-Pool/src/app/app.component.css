@@ -13,9 +13,6 @@ mat-expansion-panel {
     border-radius: 0;
 }
 
-mat-sidenav {
-    mode: 'push';
-}
 .example-container {
     position: absolute;
     top: 0;
