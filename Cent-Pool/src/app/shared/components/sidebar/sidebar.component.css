@@ -1,0 +1,14 @@
+.profile-card{
+  text-align: center;
+  padding:0 20px 20px 20px;
+}
+img{
+  width:70px;
+  height:70px;
+  object-fit:cover;
+  border-radius:50%  ;
+  -webkit-border-radius:50%  ;
+  -moz-border-radius:50%  ;
+  -ms-border-radius:50%  ;
+  -o-border-radius:50%  ;
+}

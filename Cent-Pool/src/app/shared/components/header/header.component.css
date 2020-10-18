@@ -1,0 +1,11 @@
+ul
+ li
+{
+  list-style: none;
+}
+
+/* mat-toolbar{
+  height: 300px;
+  padding:202px;
+} */
+/* make sure to remoce mat-toobar */
