@@ -1,0 +1,27 @@
+<div class="cover">
+  <h1>Login</h1>
+  <h3>Please enter your email and password</h3>
+  <hr />
+  <form novalidate autocomplete="off">
+    <p>
+      <mat-form-field class="" appearance="fill">
+        <mat-label>Username:</mat-label>
+        <input matInput (ngModel)="userName" name="userName" id="userName" required type="text"
+          placeholder="User Name..." />
+      </mat-form-field>
+    </p>
+    <p>
+      <mat-form-field appearance="fill">
+        <mat-label>Password:</mat-label>
+        <input matInput (ngModel)="password" name="password" id="password" required type="password"
+          placeholder="Password..." />
+      </mat-form-field>
+    </p>
+    <div class="buttons-container">
+      <button type="submit" mat-raised-button color="primary"
+        [disabled]="loginForm.invalid" class="">Login</button>
+      <button type="button" mat-raised-button color="primary"
+        (click)="cancel()" class="btn btn-default">Cancel</button>
+    </div>
+  </form>
+</div>

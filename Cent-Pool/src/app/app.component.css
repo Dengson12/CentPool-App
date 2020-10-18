@@ -1,21 +1,26 @@
-.blue{
-    background-color:#007aff;
-    padding:2px;
+.example-spacer {
+    flex: 1 1 auto;
+}
+img.cp-icon {
+    width: 5em;
 }
 
-.red{
-    background-color:#ff1100;
+.divider {
+    width: 1em;
 }
-.container{
-    
-    margin:25%;
+
+mat-expansion-panel {
+    border-radius: 0;
 }
-mat-spinner{
-    color: #007aff;
+
+mat-sidenav {
+    mode: 'push';
 }
-mat-icon{
-    margin:50px;
-}
-.matpinner{
-color: #007aff;
+.example-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #eee;
 }

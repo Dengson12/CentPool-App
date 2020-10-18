@@ -4,25 +4,36 @@ import {
   MatButtonToggleModule,
   MatIconModule,
   MatProgressSpinnerModule,
-  MatToolbarModule 
+  MatToolbarModule,
+  MatBadgeModule,
+  MatProgressBarModule,
+  MatSidenavModule,
+  MatExpansionModule,
+  MatListModule,
+  MatCardModule,
+  MatFormFieldModule,
+  MatInputModule
 } from '@angular/material';
-import {MatBadgeModule} from '@angular/material/badge'
-import {MatProgressBarModule} from '@angular/material/progress-bar';
 
 
- const Material =[
+ const Material = [
   MatButtonModule,
   MatProgressSpinnerModule,
   MatButtonToggleModule,
   MatIconModule,
   MatProgressBarModule,
   MatBadgeModule,
-  MatToolbarModule
+  MatToolbarModule,
+  MatSidenavModule,
+  MatExpansionModule,
+  MatListModule,
+  MatCardModule,
+  MatFormFieldModule,
+  MatInputModule
  ]
+
 @NgModule({
-  imports: [
-    Material  
-  ],
-  exports:[Material]
+  imports: [Material],
+  exports: [Material]
 })
 export class MaterialModule { }  
