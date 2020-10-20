@@ -1,0 +1,14 @@
+.cover {
+    width: 20em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mat-form-field {
+    width: 20em;
+}

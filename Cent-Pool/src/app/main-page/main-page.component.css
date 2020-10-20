@@ -3,13 +3,15 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
-    border: 2px solid #332233;
+    border: 2px solid #777;
 }
-.example-container {
+
+.main-content {
     position: absolute;
-    top: 0;
+    top: 4em;
     bottom: 0;
     left: 0;
     right: 0;
-    background: #eee;
-  }
+    min-height: 100%;
+    min-width: 100%;
+}
