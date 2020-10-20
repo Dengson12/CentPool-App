@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 2em;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gender-radios {
+    margin-bottom: 1em;
+}
+
+.gender-radios > span {
+    margin-right: 1em;
+}
+
+.mat-radio-button ~ .mat-radio-button {
+    margin-left: 16px;
+}
+
+.mat-form-field {
+    width: 100%;
+}

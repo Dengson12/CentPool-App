@@ -12,7 +12,12 @@ import {
   MatListModule,
   MatCardModule,
   MatFormFieldModule,
-  MatInputModule
+  MatInputModule,
+  MatDatepickerModule,
+  MatNativeDateModule,
+  MatCheckboxModule,
+  MatRadioModule,
+  MatSelectModule
 } from '@angular/material';
 
 
@@ -29,7 +34,12 @@ import {
   MatListModule,
   MatCardModule,
   MatFormFieldModule,
-  MatInputModule
+  MatInputModule,
+  MatDatepickerModule,
+  MatNativeDateModule,
+  MatCheckboxModule,
+  MatRadioModule,
+  MatSelectModule
  ]
 
 @NgModule({
