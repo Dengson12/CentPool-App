@@ -11,14 +11,6 @@ export class MainPageComponent  {
   // notData = prompt("enter number of notifications")
   //  proGress = this.notData;
 
- showSpinner = false;
-
- loadData(){
-   this.showSpinner=true;
-   setTimeout(()=>{
-     this.showSpinner=false
-   }, 5000)
- }
  
 
 }
