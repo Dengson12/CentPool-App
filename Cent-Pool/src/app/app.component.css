@@ -20,4 +20,5 @@ mat-expansion-panel {
     left: 0;
     right: 0;
     background: #eee;
+    background-size: cover;
 }
