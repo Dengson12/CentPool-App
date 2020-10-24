@@ -1,0 +1,33 @@
+<div class="container">
+  <div>
+    <h1>Profile</h1>
+    <h3>Edit your profile below</h3>
+    <form [formGroup]="editProfileForm" autocomplete="off" novalidate>
+
+      <mat-form-field appearance="outline">
+        <mat-label id="userName-label" aria-roledescription="label">Username</mat-label>
+        <input matInput formControlName="userName" aria-labelledby="userName-label" id="userName" type="text" required
+          placeholder="Username..." />
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label id="email-label" aria-roledescription="label">Email:</mat-label>
+        <input matInput formControlName="email" aria-labelledby="email-label" id="email" name="email" type="email"
+          required placeholder="john@example.com" />
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Date of Birth</mat-label>
+        <input formControlName="dateOfBirth" name="dateOfBirth" matInput [matDatepicker]="dob" placeholder="DD/MM/YYYY">
+        <mat-datepicker-toggle matSuffix [for]="dob"></mat-datepicker-toggle>
+        <mat-datepicker touchUi #dob disabled="false"></mat-datepicker>
+      </mat-form-field>
+
+      <div class="buttons-container">
+        <button type="submit" mat-flat-button color="primary">Update</button>
+        <button type="button" mat-flat-button color="warn" (click)="cancel()">Cancel</button>
+      </div>
+
+    </form>
+  </div>
+</div>

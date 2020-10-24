@@ -1,3 +1,19 @@
-<p>
-  profile works!
-</p>
+<div class="container">
+    <div>
+        <h1>Here are your user details</h1>
+        <div class="user-pic-wrapper"></div>
+        <div>
+            <p>First Name: </p>
+            <p>Last Name: </p>
+            <p>Userame: </p>
+            <p>Email: </p>
+            <p>Date of Birth: </p>
+            <p>Pool: </p>
+            <p>Contract: </p>
+        </div>
+        <div>
+            <button [routerLink]="['/user/edit-profile']" type="button" 
+            mat-flat-button color="primary">Edit Profile</button>
+        </div>
+    </div>
+</div>

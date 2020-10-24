@@ -15,8 +15,8 @@ export class SignUpComponent implements OnInit {
   gender: FormControl
   date_of_birth: FormControl
   country: FormControl
-
   countries: string[]
+
   constructor() { }
 
   ngOnInit() {

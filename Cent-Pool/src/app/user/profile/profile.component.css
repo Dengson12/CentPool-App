@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 2em 5%
+
+}
+
+.user-pic-wrapper {
+    background-color: rgb(220, 20, 60);
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+}

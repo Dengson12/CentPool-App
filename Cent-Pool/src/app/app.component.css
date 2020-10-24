@@ -1,4 +1,4 @@
-mat-expansion-panel {
+.mat-expansion-panel {
     border-radius: 0;
 }
 
@@ -9,3 +9,8 @@ mat-expansion-panel {
     left: 0;
     right: 0;
 }
+
+.mat-expansion-panel {
+    box-shadow: none;
+}
+
