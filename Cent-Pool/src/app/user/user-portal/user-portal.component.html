@@ -1,0 +1,89 @@
+
+<main class="main-content">
+  <div>
+    <mat-sidenav-container class="example-container">
+      <mat-sidenav #sidenav closed [mode]="mobileQuery.matches ? 'over' : 'side'"
+          [fixedInViewport]="mobileQuery.matches" fixedTopGap="56">
+          <mat-nav-list>
+              <a mat-list-item href="#">Home</a>
+              <a mat-list-item href="#">How it works</a>
+              <a mat-list-item href="#">Sign Up</a>
+              <mat-expansion-panel>
+                  <mat-expansion-panel-header>
+                      <mat-panel-title>Account</mat-panel-title>
+                  </mat-expansion-panel-header>
+                  <a mat-list-item href="#">Dashboard</a>
+                  <a mat-list-item href="#">Profile</a>
+                  <a mat-list-item href="#">Logout</a>
+              </mat-expansion-panel>
+              <mat-expansion-panel>
+                  <mat-expansion-panel-header>
+                      <mat-panel-title>Wallet</mat-panel-title>
+                  </mat-expansion-panel-header>
+                  <a mat-list-item href="#">Balance</a>
+                  <a mat-list-item href="#">Deposit</a>
+                  <a mat-list-item href="#">Withdraw</a>
+              </mat-expansion-panel>
+              <mat-expansion-panel>
+                  <mat-expansion-panel-header>
+                      <mat-panel-title>Pool</mat-panel-title>
+                  </mat-expansion-panel-header>
+                  <a mat-list-item href="#">Join one</a>
+                  <a mat-list-item href="#">Eligibility</a>
+                  <a mat-list-item href="#">Leave</a>
+              </mat-expansion-panel>
+              <a mat-list-item href="#">About</a>
+              <a mat-list-item href="#">Help</a>
+              <a mat-list-item href="#">Contact</a>
+          </mat-nav-list>    
+      </mat-sidenav>
+      <mat-sidenav-content>
+          
+          
+      </mat-sidenav-content>
+    </mat-sidenav-container> 
+    
+      
+  </div>
+
+</main>
+
+<mat-toolbar color="background" class="navbar">
+  <div>
+    <button mat-icon-button (click)="sidenav.toggle()" aria-label="icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+
+  </div>
+  <div>
+    <img src="../../../assets/images/CentPool-2.png" class="cp-icon" alt="not working">
+  </div>
+
+  <div>
+    <ngx-avatar matBadge="5" matBadgeSize="small" name="John Doe"></ngx-avatar>
+  </div>
+</mat-toolbar>
+
+
+
+
+
+
+  
+<!-- <ngx-avatar facebookId="1508319875"></ngx-avatar>
+<ngx-avatar googleId="1508319875"></ngx-avatar>
+<ngx-avatar twitterId="1508319875"></ngx-avatar>
+<ngx-avatar instagramId="dccomics" size="70"></ngx-avatar>
+<ngx-avatar skypeId="1508319875"></ngx-avatar>
+<ngx-avatar gravatarId="adde9b2b981a8083cf084c63ad86f753"></ngx-avatar>
+<ngx-avatar gravatarId="user@gmail.com"></ngx-avatar>
+<ngx-avatar src="assets/avatar.jpg"></ngx-avatar>
+<ngx-avatar name="John Doe"></ngx-avatar>
+<ngx-avatar value="75%"></ngx-avatar>
+ 
+<ngx-avatar facebookId="userFacebookID" skypeId="userSkypeID"
+ googleId="google" name="Haithem Mosbahi" src="assets/avatar.jpg"
+ value="28%"  twitterId="twitter"
+ gravatarId="adde9b2b981a8083cf084c63ad86f753" 
+ size="100" [round]="true">
+</ngx-avatar> -->

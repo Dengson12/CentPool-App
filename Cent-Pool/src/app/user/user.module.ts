@@ -3,14 +3,15 @@ import { NgModule } from "@angular/core";
 import { ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { MaterialModule } from '../material/material.module';
-import { DashboardComponent } from './dashboard/dashboard.component';
+
 import { ProfileComponent } from './profile/profile.component';
 import { userRoutes } from './user.routes';
+import { UserPortalComponent } from './user-portal/user-portal.component';
 
 @NgModule({
     declarations: [
         ProfileComponent,
-        DashboardComponent
+        UserPortalComponent,
         ],
     imports:[
         CommonModule,

@@ -1,0 +1,51 @@
+
+
+ <mat-sidenav-container class="example-container">
+  <mat-sidenav #sidenav closed [mode]="mobileQuery.matches ? 'over' : 'side'"
+      [fixedInViewport]="mobileQuery.matches" fixedTopGap="56">
+      <mat-nav-list>
+          <a mat-list-item href="#">Home</a>
+          <a mat-list-item href="#">How it works</a>
+          <a mat-list-item href="#">Sign Up</a>
+          <mat-expansion-panel>
+              <mat-expansion-panel-header>
+                  <mat-panel-title>Account</mat-panel-title>
+              </mat-expansion-panel-header>
+              <a mat-list-item href="#">Dashboard</a>
+              <a mat-list-item href="#">Profile</a>
+              <a mat-list-item href="#">Logout</a>
+          </mat-expansion-panel>
+          <mat-expansion-panel>
+              <mat-expansion-panel-header>
+                  <mat-panel-title>Wallet</mat-panel-title>
+              </mat-expansion-panel-header>
+              <a mat-list-item href="#">Balance</a>
+              <a mat-list-item href="#">Deposit</a>
+              <a mat-list-item href="#">Withdraw</a>
+          </mat-expansion-panel>
+          <mat-expansion-panel>
+              <mat-expansion-panel-header>
+                  <mat-panel-title>Pool</mat-panel-title>
+              </mat-expansion-panel-header>
+              <a mat-list-item href="#">Join one</a>
+              <a mat-list-item href="#">Eligibility</a>
+              <a mat-list-item href="#">Leave</a>
+          </mat-expansion-panel>
+          <a mat-list-item href="#">About</a>
+          <a mat-list-item href="#">Help</a>
+          <a mat-list-item href="#">Contact</a>
+      </mat-nav-list>    
+  </mat-sidenav>
+  <mat-sidenav-content>
+      
+      
+  </mat-sidenav-content>
+</mat-sidenav-container> 
+
+
+
+  <mat-toolbar>
+    <button mat-icon-button (click)="sidenav.toggle()" aria-label="icon-button with menu icon">
+    <mat-icon>menu</mat-icon>
+  </button>
+  </mat-toolbar> 
