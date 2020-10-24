@@ -1,0 +1,12 @@
+<mat-toolbar color="background">
+    <button mat-icon-button (click)="toggle()" aria-label="icon-button with menu icon">
+        <mat-icon>menu</mat-icon>
+    </button>
+    <h1>CentPool</h1>
+    <span class="spacer"></span>
+    <img src="../../assets/images/CentPool-2.png" class="cp-icon" alt="not working">
+    <span class="spacer"></span>
+    <button mat-raised-button [routerLink]="['auth/login']" color="primary">Login</button>
+    <span class="divider"></span>
+    <button mat-raised-button [routerLink]="['auth/register']" color="primary">Sign Up</button>
+</mat-toolbar>

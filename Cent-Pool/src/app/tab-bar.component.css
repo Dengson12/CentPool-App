@@ -1,0 +1,11 @@
+.spacer {
+    flex: 1 1 auto;
+}
+
+.divider {
+    width: 1em;
+}
+
+img.cp-icon {
+    width: 5em;
+}

@@ -6,11 +6,13 @@ import { MaterialModule } from './material/material.module';
 import { MainPageComponent } from './main-page/main-page.component';
 import { RouterModule } from '@angular/router';
 import { appRoutes } from './routes';
+import { TabBarComponent } from './tab-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainPageComponent,
+    TabBarComponent
   ],
   imports: [
     BrowserModule,
