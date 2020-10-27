@@ -4,6 +4,7 @@ mat-toolbar{
 }
 .mat-toolbar {
     background: #0077ee;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
     color: rgba(255,255,255,.87);
 }
 
@@ -43,6 +44,10 @@ mat-sidenav, mat-sidenav-content{
 mat-sidenav{
     background-color: #0077ee;
 }
+.mat-drawer-inner-container {
+    overflow:hidden;    
+}
+
 .divider {
     width: 1em;
 }
