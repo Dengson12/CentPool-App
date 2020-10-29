@@ -1,4 +1,5 @@
 mat-toolbar{
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     position: fixed;
     z-index: 1;
 }
@@ -11,6 +12,7 @@ mat-toolbar{
 img.cp-icon {
     width: 7em;
 }
+
 
 .divider {
     width: 1em;
@@ -125,6 +127,17 @@ img.cp-icon {
 
   /* footer */
   .another{
+<<<<<<< HEAD
       /* flex:1 1 auto; */
       /* justify-content: space-between; */
+=======
+    display: flex;
+      flex:1 1 auto;
+      justify-content: space-evenly;
+      padding: 10px 0px 10px 0px;
+  }
+
+  .span1, .span2, .span3{
+    width: 300px;
+>>>>>>> e2afb520435a4355f14fe0e9d0667ad8f70a23f7
   }
