@@ -12,6 +12,9 @@ import { LayoutModule } from '@angular/cdk/layout';
 import { RoutesDisplayComponent } from './routes-display/routes-display.component';
 import { HttpClientModule } from '@angular/common/http';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { ContractsComponent } from './contracts/contracts.component';
+import { SignContractComponent } from './contracts/sign-contract/sign-contract.component';
+import { TerminateContractComponent } from './contracts/terminate-contract/terminate-contract.component';
 
 
 @NgModule({
@@ -20,6 +23,9 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     MainPageComponent,
     RoutesDisplayComponent,
     PageNotFoundComponent,
+    ContractsComponent,
+    SignContractComponent,
+    TerminateContractComponent,
   ],
   imports: [
     BrowserModule,
