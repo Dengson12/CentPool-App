@@ -127,10 +127,6 @@ img.cp-icon {
 
   /* footer */
   .another{
-<<<<<<< HEAD
-      /* flex:1 1 auto; */
-      /* justify-content: space-between; */
-=======
     display: flex;
       flex:1 1 auto;
       justify-content: space-evenly;
@@ -139,5 +135,4 @@ img.cp-icon {
 
   .span1, .span2, .span3{
     width: 300px;
->>>>>>> e2afb520435a4355f14fe0e9d0667ad8f70a23f7
   }
