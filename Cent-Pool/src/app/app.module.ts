@@ -4,27 +4,22 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
 import { MainPageComponent } from './main-page/main-page.component';
-import { DashboardComponent } from './main-page/dashboard/dashboard.component';
+import { DashboardComponent } from './user/dashboard/dashboard.component';
 import { RouterModule } from '@angular/router';
 import { appRoutes } from './routes';
 import { MatGridListModule, MatCardModule, MatMenuModule, MatIconModule, MatButtonModule } from '@angular/material';
 import { LayoutModule } from '@angular/cdk/layout';
-import { NavMenuComponent } from './nav-menu/nav-menu.component';
-import { RoutesDisplayComponent } from './main-page/routes-display/routes-display.component';
-import {UserPortalComponent} from './user/user-portal/user-portal.component';
-import { AvatarModule } from 'ngx-avatar';
+import { RoutesDisplayComponent } from './routes-display/routes-display.component';
 import { HttpClientModule } from '@angular/common/http';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     MainPageComponent,
-    UserPortalComponent,
-    DashboardComponent,
-    NavMenuComponent,
     RoutesDisplayComponent,
-  
+    PageNotFoundComponent,
   ],
   imports: [
     BrowserModule,
@@ -33,7 +28,6 @@ import { HttpClientModule } from '@angular/common/http';
     MaterialModule,
     RouterModule.forRoot(appRoutes),
     MatGridListModule,
-    AvatarModule,
     MatCardModule,
     MatMenuModule,
     MatIconModule,

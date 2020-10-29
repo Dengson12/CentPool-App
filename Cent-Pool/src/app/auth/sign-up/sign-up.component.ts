@@ -8,15 +8,15 @@ import { FormControl, FormGroup } from '@angular/forms';
 })
 export class SignUpComponent implements OnInit {
 
-  signUpForm: FormGroup
-  firstName: FormControl
-  lastName: FormControl
-  email: FormControl
-  gender: FormControl
-  date_of_birth: FormControl
-  country: FormControl
+  signUpForm: FormGroup;
+  firstName: FormControl;
+  lastName: FormControl;
+  email: FormControl;
+  gender: FormControl;
+  dateOfBirth: FormControl;
+  country: FormControl;
 
-  countries: string[]
+  countries: string[];
   constructor() { }
 
   ngOnInit() {
@@ -26,7 +26,7 @@ export class SignUpComponent implements OnInit {
       email: new FormControl(),
       date_of_birth: new FormControl(),
       country: new FormControl()
-    })
+    });
   }
 
   saveUser() {

@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import {
-  MatButtonModule, 
+  MatButtonModule,
   MatButtonToggleModule,
   MatIconModule,
   MatProgressSpinnerModule,
@@ -10,6 +10,7 @@ import {
   MatSidenavModule,
   MatExpansionModule,
   MatListModule,
+  MatGridListModule,
   MatCardModule,
   MatFormFieldModule,
   MatInputModule,
@@ -17,11 +18,12 @@ import {
   MatNativeDateModule,
   MatCheckboxModule,
   MatRadioModule,
-  MatSelectModule
+  MatSelectModule,
+  MatMenuModule
 } from '@angular/material';
 
 
- const Material = [
+const Material = [
   MatButtonModule,
   MatProgressSpinnerModule,
   MatButtonToggleModule,
@@ -32,6 +34,7 @@ import {
   MatSidenavModule,
   MatExpansionModule,
   MatListModule,
+  MatGridListModule,
   MatCardModule,
   MatFormFieldModule,
   MatInputModule,
@@ -39,11 +42,12 @@ import {
   MatNativeDateModule,
   MatCheckboxModule,
   MatRadioModule,
-  MatSelectModule
- ]
+  MatSelectModule,
+  MatMenuModule,
+ ];
 
 @NgModule({
   imports: [Material],
   exports: [Material]
 })
-export class MaterialModule { }  
+export class MaterialModule { }
