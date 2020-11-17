@@ -44,10 +44,6 @@ mat-sidenav, mat-sidenav-content{
 mat-sidenav{
     background-color: #0077ee;
 }
-.mat-drawer-inner-container {
-    overflow:hidden;    
-}
-
 .divider {
     width: 1em;
 }
