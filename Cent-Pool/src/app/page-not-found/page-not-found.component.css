@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.mat-icon {
+    font-size: 10em;
+    color: #d2841e;
+}

@@ -39,7 +39,7 @@ img.cp-icon {
     max-width:100%;
     width: 100%;
     font-size:16px;
-    background-size: cover;
+    /* background-size: cover; */
     font-family:"Lato", sans-serif;
     font-weight:400;
     padding: 0;
@@ -56,6 +56,7 @@ img.cp-icon {
     background-repeat:no-repeat;
     background-attachment:fixed;
   }
+
   .pimg2,.pimg4{
     position:relative;
     opacity:0.60;
@@ -73,10 +74,8 @@ img.cp-icon {
   .pimg1{
     background-image:url('../../assets/images/centpool-cover.png');
     min-height:600px;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
   }
+
   .pimg2{
     background-image:url('../../assets/images/pimg1.jpg');
     min-height:400px;
@@ -99,13 +98,8 @@ img.cp-icon {
     max-width: 100%;
   }
   
-  .section-light{
+  .section-light, .section-dark{
     background-color:#0077dd;
-    color:#eee;
-  }
-  
-  .section-dark{
-    background-color: #0077dd;
     color:#eee;
   }
   
@@ -114,21 +108,21 @@ img.cp-icon {
     top:50%;
     width:100%;
     text-align:center;
-    color:#000;
+    /* color:#000; */
     font-size:27px;
     letter-spacing:8px;
     text-transform:uppercase;
   }
   
   .ptext .border{
-    background-color:#111;
+    /* background-color:#111; */
     color:#fff;
     padding:20px;
     margin: 10px;
   }
   
   .ptext .border.trans{
-    background-color:transparent;
+    /* background-color:transparent; */
   }
 
   /* footer */

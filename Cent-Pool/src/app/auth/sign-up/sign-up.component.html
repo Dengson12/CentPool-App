@@ -46,7 +46,7 @@
             <!-- <mat-option *ngFor="country of countries" [value]="country">
               {{food.viewValue}}
             </mat-option> -->
-            <mat-option value="ghana">Ghaha</mat-option>
+            <mat-option value="ghana">Ghana</mat-option>
             <mat-option value="kenya">Kenya</mat-option>
             <mat-option value="nigeria">Nigeria</mat-option>
             <mat-option value="uganda">Uganda</mat-option>
@@ -55,8 +55,10 @@
       </div>
 
       <div class="buttons-container">
-        <button type="submit" mat-flat-button color="primary" [routerLink]="['../../portal']">Login</button>
-        <button type="button" mat-flat-button color="warn" (click)="cancel()">Cancel</button>
+        <button type="submit" mat-flat-button color="primary" 
+          [routerLink]="['../../user/portal/dashboard']">Sign up</button>
+        <button type="button" mat-flat-button color="warn" 
+          (click)="cancel()">Cancel</button>
       </div>
 
     </form>

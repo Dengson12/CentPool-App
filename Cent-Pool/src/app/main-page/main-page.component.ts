@@ -7,10 +7,7 @@ import { Component } from '@angular/core';
 })
 export class MainPageComponent  {
 
-  bgSize ="small"
+  bgSize = 'small';
   // notData = prompt("enter number of notifications")
   //  proGress = this.notData;
-
- 
-
 }

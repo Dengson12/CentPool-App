@@ -9,14 +9,16 @@ mat-toolbar{
 }
 
 .navbar{
+    display: flex;
     justify-content: space-between;
 }
 .example-spacer {
     flex: 1 1 auto;
  } 
- mat-icon{
+ 
+ /* mat-icon{
     padding-top: 1rem;
- }
+ } */
 
 .mat-list-base .mat-list-item {
     color: #ffff;
@@ -35,12 +37,11 @@ ngx-avatar{
 mat-sidenav-container{
     height:100%;
 }
+
 mat-panel-title{
     color: #ffff;
 }
-mat-sidenav, mat-sidenav-content{
-    padding:16px;
-}
+
 mat-sidenav{
     background-color: #0077ee;
 }
@@ -50,9 +51,6 @@ mat-sidenav{
 
 .main-content {
     background-color: #f4f4f4;
-}
-
-.main-content {
     position: absolute;
     top: 4em;
     bottom: 0;
@@ -62,15 +60,13 @@ mat-sidenav{
     min-width: 100%;
 }
 
-mat-expansion-panel {
-    border-radius: 0;
-}
 .mat-expansion-panel {
+    border-radius: 0;
     background: #0077ee;
     color: rgba(0,0,0,.87);
 }
 
-.example-container {
+.container {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -78,4 +74,17 @@ mat-expansion-panel {
     right: 0;
     background: #eee;
     background-size: cover; 
+}
+
+.user-dropdown {
+    display: flex;
+}
+
+.arrow-dd {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mat-menu-item {
+    width: 10em;
 }

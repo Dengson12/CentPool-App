@@ -1,7 +1,7 @@
 mat-expansion-panel {
     border-radius: 0;
 }
-
+/* 
 .example-container {
     position: absolute;
     top: 0;
@@ -10,4 +10,9 @@ mat-expansion-panel {
     right: 0;
     background: #eee;
     background-size: cover;
+} */
+
+.mat-list-item {
+    color: #ffffff;
+    padding: .5em 1em !important;
 }
